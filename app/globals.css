@@ -1,0 +1,219 @@
+/* Fontes (Public Sans e Material Symbols) são carregadas via <link> em app/layout.tsx */
+@import "tailwindcss";
+
+/*
+ * Tokens do design system exportado pelo Google Stitch
+ * (mesmo tailwind.config usado nas telas em /telas/*). Os nomes são idênticos
+ * aos do Stitch para que o JSX use exatamente as mesmas classes do HTML original.
+ */
+@theme {
+  --color-surface-card: #ffffff;
+  --color-surface-canvas: #faf7fc;
+  --color-surface: #fff7fb;
+  --color-surface-bright: #fff7fb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ffeffd;
+  --color-surface-container: #ffe6ff;
+  --color-surface-container-high: #f9e1f9;
+  --color-surface-container-highest: #f3dbf3;
+  --color-surface-variant: #f3dbf3;
+  --color-surface-dim: #ead3eb;
+  --color-on-surface: #241727;
+  --color-on-surface-variant: #4f434d;
+  --color-on-background: #241727;
+  --color-text-muted: #68586e;
+  --color-text-on-purple: #ffffff;
+  --color-border-subtle: #e5d9e8;
+  --color-border-strong: #bfa5c4;
+  --color-outline: #81737e;
+  --color-outline-variant: #d3c2ce;
+  --color-primary: #601c64;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #7b357d;
+  --color-primary-fixed: #ffd6f9;
+  --color-primary-fixed-dim: #feaafb;
+  --color-secondary: #006d3d;
+  --color-brand-purple-deep: #4a154d;
+  --color-brand-purple-dark: #5a1e5c;
+  --color-brand-purple-base: #7b357d;
+  --color-brand-purple-vivid: #8b3d8d;
+  --color-brand-purple-soft: #f5e9f7;
+  --color-brand-purple-light: #fbf5fc;
+  --color-status-success: #12824c;
+  --color-status-success-bg: #ecfdf5;
+  --color-status-warning: #b45309;
+  --color-status-warning-bg: #fffbeb;
+  --color-status-emergency: #c5221f;
+  --color-status-emergency-bg: #fdf2f2;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2rem;
+  --spacing-space-2xl: 3rem;
+  --spacing-margin: 1rem;
+  --spacing-margin-tablet: 1.5rem;
+  --spacing-margin-desktop: 2.5rem;
+  --spacing-gutter: 1rem;
+
+  --font-body-md: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-body-lg: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-label-sm: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-label-md: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-label-lg: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-headline-sm: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-headline-md: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-headline-lg: "Public Sans", Arial, Helvetica, sans-serif;
+  --font-display-lg: "Public Sans", Arial, Helvetica, sans-serif;
+
+  --text-label-sm: 13px;
+  --text-label-sm--line-height: 18px;
+  --text-label-sm--letter-spacing: 0.02em;
+  --text-label-sm--font-weight: 500;
+  --text-label-md: 15px;
+  --text-label-md--line-height: 20px;
+  --text-label-md--letter-spacing: 0.01em;
+  --text-label-md--font-weight: 600;
+  --text-label-lg: 17px;
+  --text-label-lg--line-height: 24px;
+  --text-label-lg--letter-spacing: 0.01em;
+  --text-label-lg--font-weight: 600;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+  --text-headline-sm: 19px;
+  --text-headline-sm--line-height: 26px;
+  --text-headline-sm--font-weight: 600;
+  --text-headline-md: 22px;
+  --text-headline-md--line-height: 30px;
+  --text-headline-md--letter-spacing: -0.005em;
+  --text-headline-md--font-weight: 600;
+  --text-headline-lg: 28px;
+  --text-headline-lg--line-height: 36px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 700;
+  --text-display-lg: 36px;
+  --text-display-lg--line-height: 44px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 700;
+}
+
+/* Compatibilidade com o preflight do Tailwind v3 (CDN) usado pelo Stitch */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    overscroll-behavior: none;
+  }
+
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: default;
+  }
+
+  [id] {
+    scroll-margin-top: 196px;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Telas do Stitch incorporadas (altura ajustada pelo bridge.js) */
+.stitch-frame {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: var(--color-surface-canvas);
+  transition: opacity 0.2s ease;
+}
+
+.stitch-frame[data-ready="false"] {
+  opacity: 0;
+}
+
+/* Acessibilidade: aumento de fonte e alto contraste controlados pelo header */
+.site-content {
+  zoom: var(--content-zoom, 1);
+}
+
+.a11y-contrast .site-content,
+.a11y-contrast .site-header {
+  filter: contrast(1.35);
+}
+
+@keyframes dropdown-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-enter {
+  animation: dropdown-in 0.14s ease-out;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-enter {
+  animation: toast-in 0.18s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .dropdown-enter,
+  .toast-enter {
+    animation: none;
+  }
+}

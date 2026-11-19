@@ -1,0 +1,457 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>SESAU Camaçari — Secretaria Municipal da Saúde</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              purple: '#7b357d',
+              purpleDark: '#5c225e',
+              purpleDeep: '#3c143d',
+              purpleLight: '#fbf5fc',
+              purpleBorder: '#e8d4ea',
+              purpleAccent: '#9d439f',
+              surface: '#fff7fb',
+              graybg: '#f8fafc',
+              border: '#e2e8f0',
+              muted: '#64748b'
+            }
+          },
+          fontFamily: {
+            sans: ['"Public Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      font-family: 'Public Sans', sans-serif;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 9999px;
+    }
+  </style>
+<meta content="web_standard" name="shell-type"></head>
+<body class="bg-[#fbf7fa] text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+<!-- 1. FAIXA SUPERIOR DE ACESSIBILIDADE E SERVIÇOS MUNICIPAIS -->
+<header class="w-full">
+<div class="bg-[#3b153d] border-b border-[#4d1f50] px-6 lg:px-12 py-2 text-xs text-white flex items-center justify-between">
+<div class="flex items-center space-x-3 sm:space-x-4">
+<a class="hover:underline font-medium text-purple-100 hover:text-white flex items-center space-x-1.5" href="#acessibilidade">
+<span class="material-symbols-outlined text-[16px] text-purple-200">accessibility_new</span>
+<span>Acessibilidade</span>
+</a>
+<span class="text-purple-400/40">|</span>
+<div class="flex items-center space-x-1">
+<button aria-label="Aumentar tamanho do texto" class="px-2 py-0.5 border border-purple-400/40 rounded bg-[#4d1f50] hover:bg-[#602564] font-semibold text-white transition-colors" type="button">A+</button>
+<button aria-label="Diminuir tamanho do texto" class="px-2 py-0.5 border border-purple-400/40 rounded bg-[#4d1f50] hover:bg-[#602564] font-semibold text-white transition-colors" type="button">A−</button>
+</div>
+<span class="text-purple-400/40">|</span>
+<button aria-label="Alternar alto contraste" class="px-2.5 py-0.5 border border-purple-400/40 rounded bg-[#4d1f50] hover:bg-[#602564] font-medium text-white flex items-center space-x-1.5 transition-colors" type="button">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-amber-300"></span>
+<span class="hidden sm:inline">Alto contraste</span>
+</button>
+<span class="text-purple-400/40">|</span>
+<button aria-label="Acesso a Libras" class="px-2.5 py-0.5 border border-purple-400/40 rounded bg-[#4d1f50] hover:bg-[#602564] font-medium text-white flex items-center space-x-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[15px]">sign_language</span>
+<span>Libras</span>
+</button>
+</div>
+<div>
+<a class="text-purple-100 hover:text-white font-medium flex items-center space-x-1 text-xs transition-colors" href="https://www.camacari.ba.gov.br/" rel="noopener noreferrer" target="_blank">
+<span class="hidden md:inline">Portal da Prefeitura de Camaçari</span>
+<span class="md:hidden">Prefeitura de Camaçari</span>
+<span class="material-symbols-outlined text-[14px] text-purple-300">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- 2. CABEÇALHO INSTITUCIONAL -->
+<div class="bg-white border-b border-purple-100/80 px-6 lg:px-12 py-4">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+<!-- Marca / Identificação Oficial -->
+<div class="flex items-center space-x-4 sm:space-x-5">
+<a class="flex items-center shrink-0" href="https://www.camacari.ba.gov.br/" rel="noopener noreferrer" target="_blank"><img alt="Prefeitura de Camaçari" class="h-10 sm:h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBe01h0wsG4kfDR6fdNfhcy1yXFI78Oc8LlQ6gxr8rBN6b3iUmeYq6anxEUm18ycuftGGJfXn6YRe_stm1rbl--CjfqrFcdbFe4YIcP3IZH3mlRqTED-dX_qsMMhs-e4fIeCB54K3NsNiGUZozbPIoOnAEZFZNSDCmyelP6Z27hnJL3znUHETEGenhminIiXlv8EmcUsvARP367TUCZMGNe0i_08oN9tjKXGs30yWBlKWA8kCPva6NaQQ"></a>
+<div class="h-10 border-l border-slate-200 hidden sm:block"></div>
+<div>
+<h1 class="text-xl sm:text-2xl font-bold text-slate-900 leading-snug tracking-tight">Secretaria Municipal da Saúde</h1>
+<p class="text-xs text-slate-500 font-medium flex items-center gap-1.5 flex-wrap">
+<span class="font-semibold text-[#7b357d]">Camaçari · Bahia</span>
+<span>•</span>
+<span class="text-slate-600">SUS · Sistema Único de Saúde</span>
+</p>
+</div>
+</div>
+<!-- Ações do cabeçalho -->
+<div class="flex items-center space-x-3 w-full md:w-auto justify-end">
+<div class="relative hidden lg:flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-slate-400 text-[18px] pointer-events-none">search</span>
+<input aria-label="Buscar no portal" class="h-10 pl-9 pr-3 rounded-lg border border-slate-200 bg-slate-50 text-slate-800 placeholder-slate-400 text-xs outline-none focus:border-[#7b357d] focus:bg-white focus:ring-1 focus:ring-[#7b357d] transition-all w-52" placeholder="Buscar no portal..." type="search">
+</div>
+<button class="border border-[#7b357d] text-[#7b357d] hover:bg-[#fbf5fc] px-4 py-2 rounded-lg font-semibold text-xs flex items-center space-x-2 transition-colors focus:outline-none focus:ring-2 focus:ring-[#7b357d]" type="button">
+<span class="material-symbols-outlined text-[18px]">person</span>
+<span>Minha conta</span>
+</button>
+</div>
+</div>
+</div>
+<!-- 3. BARRA DE NAVEGAÇÃO HORIZONTAL EM 5 COLUNAS COM O NOVO TEMA -->
+<nav aria-label="Menu principal" class="relative z-40 w-full bg-white border-b border-purple-100 shadow-xs" id="menu-principal">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Mobile Toggle -->
+<div class="flex items-center justify-between md:hidden py-3">
+<span class="text-sm font-bold text-[#7b357d]">Serviços e Informações</span>
+<button aria-controls="mobile-nav" aria-expanded="false" class="flex items-center gap-1.5 px-3 py-1.5 border border-purple-200 rounded-lg text-[#7b357d] font-semibold text-xs hover:bg-[#fbf5fc] transition-colors" onclick="document.getElementById('mobile-nav').classList.toggle('hidden');" type="button">
+<span class="material-symbols-outlined text-[18px]">menu</span>
+<span>Menu</span>
+</button>
+</div>
+<!-- Desktop Nav Grid 5 Colunas -->
+<div class="hidden md:grid md:grid-cols-5 gap-1 py-1">
+<!-- Item 1: Vacinas -->
+<div class="relative group">
+<button aria-expanded="false" class="w-full flex items-center justify-center space-x-1.5 py-3 px-3 font-semibold text-[#5c225e] hover:text-[#7b357d] hover:bg-[#fbf5fc] rounded-lg transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-[#7b357d]" onclick="toggleSubmenu('submenu-1', this)" type="button">
+<span>Vacinas</span>
+<span class="material-symbols-outlined text-[18px] text-[#7b357d] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</button>
+<div class="submenu hidden absolute left-0 top-full mt-1 w-64 bg-white border border-purple-100 rounded-xl shadow-lg p-2 z-50 text-left" id="submenu-1">
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Doenças e Prevenção</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Notícias e Alertas</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Especialidades</a>
+</div>
+</div>
+<!-- Item 2: Postos / Institucional -->
+<div class="relative group">
+<button aria-expanded="false" class="w-full flex items-center justify-center space-x-1.5 py-3 px-3 font-semibold text-[#5c225e] hover:text-[#7b357d] hover:bg-[#fbf5fc] rounded-lg transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-[#7b357d]" onclick="toggleSubmenu('submenu-2', this)" type="button">
+<span>Postos</span>
+<span class="material-symbols-outlined text-[18px] text-[#7b357d] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</button>
+<div class="submenu hidden absolute left-0 top-full mt-1 w-64 bg-white border border-purple-100 rounded-xl shadow-lg p-2 z-50 text-left" id="submenu-2">
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Endereços dos Postos (USF/UBS)</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Ouvidoria SUS</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Transporte em Saúde</a>
+</div>
+</div>
+<!-- Item 3: Remédios -->
+<div class="relative group">
+<button aria-expanded="false" class="w-full flex items-center justify-center space-x-1.5 py-3 px-3 font-semibold text-[#5c225e] hover:text-[#7b357d] hover:bg-[#fbf5fc] rounded-lg transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-[#7b357d]" onclick="toggleSubmenu('submenu-3', this)" type="button">
+<span>Remédios</span>
+<span class="material-symbols-outlined text-[18px] text-[#7b357d] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</button>
+<div class="submenu hidden absolute left-0 top-full mt-1 w-64 bg-white border border-purple-100 rounded-xl shadow-lg p-2 z-50 text-left" id="submenu-3">
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Consulta de Medicamentos</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Farmácias Municipais</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Fraldas e Leites Especiais</a>
+</div>
+</div>
+<!-- Item 4: Consultas -->
+<div class="relative group">
+<button aria-expanded="false" class="w-full flex items-center justify-center space-x-1.5 py-3 px-3 font-semibold text-[#5c225e] hover:text-[#7b357d] hover:bg-[#fbf5fc] rounded-lg transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-[#7b357d]" onclick="toggleSubmenu('submenu-4', this)" type="button">
+<span>Consultas</span>
+<span class="material-symbols-outlined text-[18px] text-[#7b357d] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</button>
+<div class="submenu hidden absolute left-0 top-full mt-1 w-64 bg-white border border-purple-100 rounded-xl shadow-lg p-2 z-50 text-left" id="submenu-4">
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Agendamentos e Marcações</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Psicologia e Saúde Mental</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Saúde Bucal / Dentista</a>
+</div>
+</div>
+<!-- Item 5: Vigilância -->
+<div class="relative group">
+<button aria-expanded="false" class="w-full flex items-center justify-center space-x-1.5 py-3 px-3 font-semibold text-[#5c225e] hover:text-[#7b357d] hover:bg-[#fbf5fc] rounded-lg transition-colors text-sm focus:outline-none focus:ring-2 focus:ring-[#7b357d]" onclick="toggleSubmenu('submenu-5', this)" type="button">
+<span>Vigilância</span>
+<span class="material-symbols-outlined text-[18px] text-[#7b357d] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</button>
+<div class="submenu hidden absolute right-0 top-full mt-1 w-64 bg-white border border-purple-100 rounded-xl shadow-lg p-2 z-50 text-left" id="submenu-5">
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Alvarás Sanitários</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Zoonoses e Castração</a>
+<a class="block text-sm text-slate-700 hover:text-[#7b357d] hover:bg-[#fbf5fc] px-3 py-2 rounded-lg transition-colors font-medium" href="#">Combate à Dengue</a>
+</div>
+</div>
+</div>
+<!-- Mobile Nav Drawer -->
+<div class="hidden md:hidden pb-4 border-t border-purple-100 space-y-2 pt-2" id="mobile-nav">
+<details class="group">
+<summary class="flex items-center justify-between px-3 py-2 font-semibold text-[#5c225e] text-sm cursor-pointer hover:bg-[#fbf5fc] rounded-lg">
+<span>Vacinas</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</summary>
+<div class="pl-4 py-1 space-y-1 text-xs text-slate-600">
+<a class="block py-1 hover:text-[#7b357d]" href="#">Doenças e Prevenção</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Notícias</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Especialidades</a>
+</div>
+</details>
+<details class="group">
+<summary class="flex items-center justify-between px-3 py-2 font-semibold text-[#5c225e] text-sm cursor-pointer hover:bg-[#fbf5fc] rounded-lg">
+<span>Postos</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</summary>
+<div class="pl-4 py-1 space-y-1 text-xs text-slate-600">
+<a class="block py-1 hover:text-[#7b357d]" href="#">Endereços</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Ouvidoria</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Transporte</a>
+</div>
+</details>
+<details class="group">
+<summary class="flex items-center justify-between px-3 py-2 font-semibold text-[#5c225e] text-sm cursor-pointer hover:bg-[#fbf5fc] rounded-lg">
+<span>Remédios</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</summary>
+<div class="pl-4 py-1 space-y-1 text-xs text-slate-600">
+<a class="block py-1 hover:text-[#7b357d]" href="#">Estoque</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Fraldas/Leites</a>
+</div>
+</details>
+<details class="group">
+<summary class="flex items-center justify-between px-3 py-2 font-semibold text-[#5c225e] text-sm cursor-pointer hover:bg-[#fbf5fc] rounded-lg">
+<span>Consultas</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</summary>
+<div class="pl-4 py-1 space-y-1 text-xs text-slate-600">
+<a class="block py-1 hover:text-[#7b357d]" href="#">Agendamentos</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Psicologia</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Dentista</a>
+</div>
+</details>
+<details class="group">
+<summary class="flex items-center justify-between px-3 py-2 font-semibold text-[#5c225e] text-sm cursor-pointer hover:bg-[#fbf5fc] rounded-lg">
+<span>Vigilância</span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</summary>
+<div class="pl-4 py-1 space-y-1 text-xs text-slate-600">
+<a class="block py-1 hover:text-[#7b357d]" href="#">Alvarás</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Castração</a>
+<a class="block py-1 hover:text-[#7b357d]" href="#">Dengue</a>
+</div>
+</details>
+</div>
+</div>
+</nav>
+</header>
+<!-- CONTEÚDO PRINCIPAL -->
+<main class="flex-1" id="conteudo-principal"><div class="flex flex-col w-full">
+<!-- SESSÃO TOPO: BREADCRUMBS & BADGE INSTITUCIONAL -->
+<section class="w-full bg-surface-bright py-6 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
+<nav aria-label="Trilha de navegação" class="flex items-center space-x-2 text-label-sm font-label-sm text-text-muted">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-base">home</span>
+<span>Início</span>
+</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Serviços</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-on-surface font-semibold">Postos de Saúde</span>
+</nav>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-brand-purple-soft text-brand-purple-dark text-label-sm font-label-sm font-semibold">
+<span class="material-symbols-outlined text-base text-brand-purple-base">health_and_safety</span>
+          Rede de Atenção Primária · SUS Camaçari
+        </span>
+</div>
+</div>
+</section>
+<!-- APRESENTAÇÃO DO SERVIÇO & NOTA INFORMATIVA -->
+<section class="w-full px-6 lg:px-12 pb-6"><div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-purple-100/80 pb-6"><div><h1 class="text-headline-lg font-headline-lg text-on-surface tracking-tight">Postos de Saúde</h1><p class="text-body-md font-body-md text-text-muted mt-1">Encontre a unidade básica ou de saúde da família mais próxima de você.</p></div><div class="flex items-center gap-2"><span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-brand-purple-soft text-brand-purple-dark text-label-sm font-semibold"><span class="material-symbols-outlined text-base text-brand-purple-base">location_on</span>Rede Municipal de Atenção Básica</span></div></div></section>
+<!-- FORMULÁRIO DE BUSCA FILTRADA -->
+<section class="w-full px-6 lg:px-12 pb-8"><div class="max-w-7xl mx-auto bg-surface-card p-5 md:p-6 rounded-xl shadow-sm border border-purple-100/60"><form class="grid grid-cols-1 md:grid-cols-12 gap-4 items-end" id="search-form" onsubmit="event.preventDefault(); filterUnits();"><div class="md:col-span-6 flex flex-col space-y-1.5"><label class="text-label-sm font-semibold text-brand-purple-deep" for="input-bairro">Buscar por bairro ou localidade</label><div class="relative flex items-center"><span class="material-symbols-outlined absolute left-3.5 text-text-muted text-lg pointer-events-none">search</span><input class="w-full h-12 pl-10 pr-4 rounded-lg bg-surface-canvas text-on-surface text-body-md placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-brand-purple-base transition-all text-sm" id="input-bairro" placeholder="Ex: Nova Vitória, Ponto Certo, Arembepe..." type="text"></div></div><div class="md:col-span-4 flex flex-col space-y-1.5"><label class="text-label-sm font-semibold text-brand-purple-deep" for="select-regiao">Região</label><div class="relative flex items-center"><select class="w-full h-12 px-3.5 rounded-lg bg-surface-canvas text-on-surface text-body-md focus:outline-none focus:ring-2 focus:ring-brand-purple-base appearance-none pr-10 cursor-pointer transition-all text-sm" id="select-regiao"><option value="todos">Todas as regiões</option><option value="sede">Sede Municipal</option><option value="orla">Costa / Orla de Camaçari</option></select><span class="material-symbols-outlined absolute right-3 text-text-muted pointer-events-none text-lg">expand_more</span></div></div><div class="md:col-span-2 flex items-center gap-2"><button class="h-12 w-full px-4 rounded-lg bg-brand-purple-base hover:bg-brand-purple-dark text-text-on-purple font-semibold text-sm flex items-center justify-center gap-1.5 shadow-sm transition-colors" type="submit"><span class="material-symbols-outlined text-lg">search</span><span>Buscar</span></button><button class="h-12 px-3 rounded-lg bg-surface-container-low text-primary hover:bg-surface-container text-sm font-medium transition-colors shrink-0" onclick="resetSearch();" title="Limpar filtros" type="button"><span class="material-symbols-outlined text-lg">refresh</span></button></div></form></div></section>
+<!-- RESULTADOS DA BUSCA & PAINEL LATERAL -->
+<section class="w-full px-6 lg:px-12 pb-16">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- COLUNA ESQUERDA: LISTA DE UNIDADES (7/12) -->
+<div class="lg:col-span-7 space-y-6">
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-2.5">
+<h2 class="text-headline-md font-headline-md text-on-surface">Unidades da Atenção Primária</h2>
+<span class="px-2.5 py-0.5 rounded-full bg-brand-purple-soft text-brand-purple-dark text-label-sm font-label-sm font-semibold" id="results-count">3 encontradas</span>
+</div>
+<span class="text-label-sm font-label-sm text-secondary font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+            Rede Ativa SUS
+          </span>
+</div>
+<div class="space-y-5" id="units-container"><article class="unit-card bg-surface-card rounded-xl p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden border border-purple-100/60" data-name="nova vitoria sede" data-region="sede"><div class="flex items-start justify-between gap-3 mb-3"><div><div class="flex items-center gap-2 mb-1.5"><span class="px-2.5 py-0.5 rounded bg-brand-purple-soft text-brand-purple-dark text-xs font-bold uppercase tracking-wider">USF</span><span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-sm text-brand-purple-base">location_on</span>Nova Vitória · Sede</span></div><h3 class="text-headline-sm font-headline-sm text-on-surface">USF Nova Vitória</h3></div><span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-status-success-bg text-secondary text-xs font-semibold"><span class="w-2 h-2 rounded-full bg-status-success animate-pulse"></span>Aberta</span></div><div class="space-y-2 py-3 text-sm text-on-surface"><div class="flex items-center gap-2 text-text-muted"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">home_pin</span><span>Rua Central, s/n - Nova Vitória, Camaçari - BA</span></div><div class="flex flex-wrap items-center gap-x-6 gap-y-1 text-text-muted"><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">schedule</span><span>Seg a Sex, 07h30 às 16h30</span></div><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">call</span><span>(71) 3622-7900</span></div></div></div><div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-purple-100/60"><div class="flex flex-wrap gap-1.5"><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Vacinação</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Farmácia Básica</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Clínico Geral</span></div><div class="flex items-center gap-2"><button class="px-3.5 py-2 rounded-lg bg-surface-container-low text-primary hover:bg-surface-container text-xs font-semibold flex items-center gap-1 transition-colors" onclick="focusOnMap('USF Nova Vitória', 'Nova Vitória')" type="button"><span class="material-symbols-outlined text-base">map</span>Ver no mapa</button><button class="px-3.5 py-2 rounded-lg bg-brand-purple-base hover:bg-brand-purple-dark text-text-on-purple text-xs font-semibold transition-colors" type="button">Detalhes</button></div></div></article><article class="unit-card bg-surface-card rounded-xl p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden border border-purple-100/60" data-name="arembepe orla costa" data-region="orla"><div class="flex items-start justify-between gap-3 mb-3"><div><div class="flex items-center gap-2 mb-1.5"><span class="px-2.5 py-0.5 rounded bg-secondary-container text-secondary text-xs font-bold uppercase tracking-wider">UBS</span><span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-sm text-secondary">location_on</span>Arembepe · Costa / Orla</span></div><h3 class="text-headline-sm font-headline-sm text-on-surface">UBS Arembepe</h3></div><span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-status-success-bg text-secondary text-xs font-semibold"><span class="w-2 h-2 rounded-full bg-status-success"></span>Aberta</span></div><div class="space-y-2 py-3 text-sm text-on-surface"><div class="flex items-center gap-2 text-text-muted"><span class="material-symbols-outlined text-base shrink-0 text-secondary">home_pin</span><span>Av. Bernardo Spector, s/n - Arembepe, Camaçari - BA</span></div><div class="flex flex-wrap items-center gap-x-6 gap-y-1 text-text-muted"><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-secondary">schedule</span><span>Seg a Sex, 07h00 às 17h00</span></div><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-secondary">call</span><span>(71) 3624-1188</span></div></div></div><div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-purple-100/60"><div class="flex flex-wrap gap-1.5"><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Coleta de Exames</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Ambulatório</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Vacinação</span></div><div class="flex items-center gap-2"><button class="px-3.5 py-2 rounded-lg bg-surface-container-low text-primary hover:bg-surface-container text-xs font-semibold flex items-center gap-1 transition-colors" onclick="focusOnMap('UBS Arembepe', 'Arembepe')" type="button"><span class="material-symbols-outlined text-base">map</span>Ver no mapa</button><button class="px-3.5 py-2 rounded-lg bg-brand-purple-base hover:bg-brand-purple-dark text-text-on-purple text-xs font-semibold transition-colors" type="button">Detalhes</button></div></div></article><article class="unit-card bg-surface-card rounded-xl p-5 md:p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden border border-purple-100/60" data-name="ponto certo sede" data-region="sede"><div class="flex items-start justify-between gap-3 mb-3"><div><div class="flex items-center gap-2 mb-1.5"><span class="px-2.5 py-0.5 rounded bg-brand-purple-soft text-brand-purple-dark text-xs font-bold uppercase tracking-wider">USF</span><span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-sm text-brand-purple-base">location_on</span>Ponto Certo · Sede</span></div><h3 class="text-headline-sm font-headline-sm text-on-surface">USF Ponto Certo</h3></div><span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-status-success-bg text-secondary text-xs font-semibold"><span class="w-2 h-2 rounded-full bg-status-success"></span>Aberta</span></div><div class="space-y-2 py-3 text-sm text-on-surface"><div class="flex items-center gap-2 text-text-muted"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">home_pin</span><span>Rua da Linha, nº 142 - Ponto Certo, Camaçari - BA</span></div><div class="flex flex-wrap items-center gap-x-6 gap-y-1 text-text-muted"><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">schedule</span><span>Seg a Sex, 08h00 às 16h30</span></div><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base shrink-0 text-brand-purple-base">call</span><span>(71) 3622-7945</span></div></div></div><div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-purple-100/60"><div class="flex flex-wrap gap-1.5"><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Saúde da Mulher</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Hiperdia</span><span class="px-2 py-0.5 rounded text-xs bg-surface-container text-on-surface-variant font-medium">Odontologia</span></div><div class="flex items-center gap-2"><button class="px-3.5 py-2 rounded-lg bg-surface-container-low text-primary hover:bg-surface-container text-xs font-semibold flex items-center gap-1 transition-colors" onclick="focusOnMap('USF Ponto Certo', 'Ponto Certo')" type="button"><span class="material-symbols-outlined text-base">map</span>Ver no mapa</button><button class="px-3.5 py-2 rounded-lg bg-brand-purple-base hover:bg-brand-purple-dark text-text-on-purple text-xs font-semibold transition-colors" type="button">Detalhes</button></div></div></article></div>
+<!-- ESTADO VAZIO / AMIGÁVEL QUANDO NÃO HÁ RESULTADOS -->
+<div class="hidden bg-surface-card rounded-xl p-8 text-center space-y-4 shadow-sm" id="empty-state">
+<div class="w-16 h-16 mx-auto rounded-full bg-surface-container flex items-center justify-center text-brand-purple-base">
+<span class="material-symbols-outlined text-3xl">sentiment_dissatisfied</span>
+</div>
+<div class="space-y-1">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Não encontramos unidades para essa busca</h3>
+<p class="text-body-md font-body-md text-text-muted max-w-md mx-auto">
+              Tente outro nome de bairro, logradouro ou selecione 'Todas as regiões'. Se precisar, contate a Ouvidoria Municipal da Saúde.
+            </p>
+</div>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-brand-purple-soft text-brand-purple-dark hover:bg-surface-container font-label-md font-semibold transition-colors" href="mailto:ouvidoria.sus@camacari.ba.gov.br">
+<span class="material-symbols-outlined text-lg">support_agent</span>
+<span>Falar com a Ouvidoria SUS</span>
+</a>
+</div>
+</div>
+</div>
+<!-- COLUNA DIREITA: MAPA GEOGRÁFICO & CANAIS DE APOIO (5/12) -->
+<aside class="lg:col-span-5 space-y-6"><div class="bg-surface-card rounded-xl overflow-hidden shadow-sm border border-purple-100/60"><div class="p-4 bg-surface-card flex items-center justify-between border-b border-purple-100/60"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-brand-purple-base text-xl">map</span><h3 class="text-sm font-bold text-on-surface">Mapa das Unidades</h3></div><div class="flex items-center gap-1 text-xs"><span class="px-2 py-0.5 rounded bg-brand-purple-soft text-brand-purple-dark font-medium">USF</span><span class="px-2 py-0.5 rounded bg-secondary-container text-secondary font-medium">UBS</span><span class="px-2 py-0.5 rounded bg-error-container text-status-emergency font-medium">UPA</span></div></div><div class="w-full h-80 bg-cover bg-center relative flex items-end p-3" data-location="Camaçari, Bahia, Brasil" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB3zNaAXQULCSywLpUUCVb3uAR5zSGNxaZDxrzar4h6c6Rt5Gt4oP1IFue9SJmzwppcjPhqDBla5leWrmdXgUl5ataIzSyUeRtxv2WjS8vZSVZR2LdRFAmujGCxi47WCECL_n0KchPEDaZpvDvZqB6kvYPZ_rZah-mfoxlfPIhfXdd2B4BFcHWiFOAqfYOXUuslhL5Icj9QENF-rb48CxNt8fmgBJmEuCR0-nsqRiGR')"><div class="bg-surface-card/95 backdrop-blur-sm p-3 rounded-lg shadow-md w-full flex items-center justify-between"><div class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-brand-purple-base"></span><div class="text-xs"><span class="font-bold text-on-surface block" id="active-map-label">Rede Municipal de Postos</span><span class="text-text-muted text-[11px]">Camaçari · Sede e Orla</span></div></div><a class="p-1.5 rounded bg-surface-container-low text-primary hover:bg-surface-container transition-colors" href="https://maps.google.com/?q=Postos+de+Saude+Camacari+Bahia" rel="noopener noreferrer" target="_blank" title="Abrir no Google Maps"><span class="material-symbols-outlined text-base">open_in_new</span></a></div></div></div><div class="bg-surface-card rounded-xl p-4 shadow-sm border border-purple-100/60"><div class="flex items-center gap-2 mb-2.5"><span class="material-symbols-outlined text-brand-purple-base text-lg">assignment</span><h4 class="text-xs font-bold uppercase tracking-wider text-on-surface">O que levar para o atendimento</h4></div><div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs"><div class="p-2.5 rounded-lg bg-surface-canvas text-center"><span class="material-symbols-outlined text-brand-purple-base text-lg block mx-auto mb-1">credit_card</span><span class="font-semibold block text-on-surface">Cartão SUS</span><span class="text-text-muted text-[11px]">Físico ou digital</span></div><div class="p-2.5 rounded-lg bg-surface-canvas text-center"><span class="material-symbols-outlined text-brand-purple-base text-lg block mx-auto mb-1">badge</span><span class="font-semibold block text-on-surface">Documento</span><span class="text-text-muted text-[11px]">Com foto (RG/CNH)</span></div><div class="p-2.5 rounded-lg bg-surface-canvas text-center"><span class="material-symbols-outlined text-brand-purple-base text-lg block mx-auto mb-1">home_pin</span><span class="font-semibold block text-on-surface">Residência</span><span class="text-text-muted text-[11px]">Comprovante atual</span></div></div></div></aside>
+</div>
+</section>
+<!-- MICRO-INTERAÇÃO CLIENT-SIDE INLINE -->
+<script>
+    function filterUnits() {
+      const query = document.getElementById('input-bairro').value.toLowerCase().trim();
+      const region = document.getElementById('select-regiao').value;
+      const cards = document.querySelectorAll('.unit-card');
+      const emptyState = document.getElementById('empty-state');
+      const countLabel = document.getElementById('results-count');
+      
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardRegion = card.getAttribute('data-region');
+        const cardText = card.getAttribute('data-name');
+        
+        const matchesQuery = query === '' || cardText.includes(query);
+        const matchesRegion = region === 'todos' || cardRegion === region;
+
+        if (matchesQuery && matchesRegion) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      countLabel.textContent = `${visibleCount} encontrada${visibleCount !== 1 ? 's' : ''}`;
+
+      if (visibleCount === 0) {
+        emptyState.classList.remove('hidden');
+      } else {
+        emptyState.classList.add('hidden');
+      }
+    }
+
+    function resetSearch() {
+      document.getElementById('input-bairro').value = '';
+      document.getElementById('select-regiao').value = 'todos';
+      filterUnits();
+    }
+
+    function focusOnMap(unitName, locationLabel) {
+      const mapLabel = document.getElementById('active-map-label');
+      if (mapLabel) {
+        mapLabel.textContent = unitName + ' — ' + locationLabel;
+      }
+      window.scrollTo({
+        top: document.querySelector('[data-location]').offsetTop - 120,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</div></main>
+<!-- 10. RODAPÉ INSTITUCIONAL (COM INFORMAÇÕES OFICIAIS E PALETA ROXA DA SESAU) -->
+<footer aria-label="Rodapé do portal" class="bg-[#2a0e2c] text-purple-200 text-xs border-t border-[#3d163f] pt-12 pb-8 px-6 lg:px-12 mt-auto">
+<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-6 gap-8 pb-10 border-b border-purple-900/60">
+<!-- Coluna 1: SESAU Camaçari -->
+<div class="col-span-2">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-[24px] text-purple-300">local_hospital</span>
+<h3 class="text-base font-bold text-white">SESAU Camaçari</h3>
+</div>
+<p class="text-purple-300 text-xs leading-relaxed mb-4">
+        Secretaria Municipal da Saúde<br>
+        Prefeitura Municipal de Camaçari · Estado da Bahia
+      </p>
+<div class="text-[11px] text-purple-200 bg-[#3c143d] p-3 rounded-xl border border-purple-800/80 space-y-1">
+<p><strong class="text-white">Responsável:</strong> Rosângela Oliveira Santos de Almeida</p>
+<p><strong class="text-white">Telefone oficial:</strong> (71) 3621-6824</p>
+<p><strong class="text-white">Atendimento:</strong> Segunda a sexta, das 08h às 17h</p>
+</div>
+</div>
+<!-- Coluna 2: Contato -->
+<div>
+<h3 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Contato</h3>
+<ul class="space-y-2 text-purple-300">
+<li><a class="hover:text-white transition-colors" href="#">Unidades e Telefones</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Horários de Atendimento</a></li>
+<li><a class="hover:text-white transition-colors" href="#">SAMU 192 (Urgência)</a></li>
+</ul>
+</div>
+<!-- Coluna 3: Ouvidoria -->
+<div>
+<h3 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Ouvidoria</h3>
+<ul class="space-y-2 text-purple-300">
+<li><a class="hover:text-white transition-colors" href="#">Fazer Manifestação</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Elogios e Reclamações</a></li>
+<li class="break-all"><a class="text-purple-200 hover:text-white underline" href="mailto:ouvidoria.sus@camacari.ba.gov.br">ouvidoria.sus@camacari.ba.gov.br</a></li>
+</ul>
+</div>
+<!-- Coluna 4: Transparência -->
+<div>
+<h3 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Transparência</h3>
+<ul class="space-y-2 text-purple-300">
+<li><a class="hover:text-white transition-colors" href="#">Relatórios de Gestão</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Conselho de Saúde</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Prestação de Contas</a></li>
+</ul>
+</div>
+<!-- Coluna 5: Governo -->
+<div>
+<h3 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Governo</h3>
+<ul class="space-y-2 text-purple-300">
+<li><a class="hover:text-white transition-colors" href="#">Acessibilidade</a></li>
+<li><a class="hover:text-white transition-colors" href="https://www.camacari.ba.gov.br/" rel="noopener noreferrer" target="_blank">Portal da Prefeitura</a></li>
+<li><a class="hover:text-white transition-colors" href="https://cartadeservicos.camacari.ba.gov.br/?secretaria=15#resultado" rel="noopener noreferrer" target="_blank">Carta de Serviços</a></li>
+</ul>
+</div>
+</div>
+<!-- Linha final de direitos -->
+<div class="max-w-7xl mx-auto pt-6 flex flex-col md:flex-row items-center justify-between text-purple-300 text-[11px] gap-3">
+<p>© Prefeitura Municipal de Camaçari · Secretaria Municipal da Saúde. Identidade Institucional SESAU.</p>
+<div class="flex items-center space-x-2 text-[11px] text-purple-300">
+<span>Camaçari / BA</span>
+<span>•</span>
+<span>SUS · Sistema Único de Saúde</span>
+</div>
+</div>
+</footer>
+<script>
+  function toggleSubmenu(id, btn) {
+    const allSubmenus = document.querySelectorAll('.submenu');
+    const target = document.getElementById(id);
+    const isHidden = target.classList.contains('hidden');
+    
+    allSubmenus.forEach(sub => sub.classList.add('hidden'));
+    
+    if (isHidden) {
+      target.classList.remove('hidden');
+      btn.setAttribute('aria-expanded', 'true');
+    } else {
+      target.classList.add('hidden');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  }
+
+  // Fechar ao clicar fora
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('#menu-principal')) {
+      document.querySelectorAll('.submenu').forEach(sub => sub.classList.add('hidden'));
+      document.querySelectorAll('#menu-principal button[aria-expanded="true"]').forEach(btn => btn.setAttribute('aria-expanded', 'false'));
+    }
+  });
+</script>
+
+
+</body></html>
